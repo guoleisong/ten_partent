@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ten_article" />
+        <module name="ten_base" />
+        <module name="ten_common" />
+        <module name="ten_eureka" />
+        <module name="ten_gathering" />
+        <module name="ten_qa" />
+        <module name="ten_rabbitmqtest" />
+        <module name="ten_recruit" />
+        <module name="ten_search" />
+        <module name="ten_sms" />
+        <module name="ten_spit" />
+        <module name="ten_user" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ten_article" options="-parameters" />
+      <module name="ten_base" options="-parameters" />
+      <module name="ten_common" options="-parameters" />
+      <module name="ten_eureka" options="-parameters" />
+      <module name="ten_gathering" options="-parameters" />
+      <module name="ten_qa" options="-parameters" />
+      <module name="ten_rabbitmqtest" options="-parameters" />
+      <module name="ten_recruit" options="-parameters" />
+      <module name="ten_search" options="-parameters" />
+      <module name="ten_sms" options="-parameters" />
+      <module name="ten_spit" options="-parameters" />
+      <module name="ten_user" options="-parameters" />
+    </option>
+  </component>
+</project>
